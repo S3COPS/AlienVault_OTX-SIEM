@@ -2,3 +2,4 @@ Python 2.7.5+
 pip installed - https://bootstrap.pypa.io/get-pip.py
 pip install pandas
 pip install requests
+pip install json_normalize
