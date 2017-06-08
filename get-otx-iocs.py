@@ -119,7 +119,7 @@ class OTXReceiver():
                                 event["name"].encode('unicode-escape'),
                                 " / ".join(event["references"])[:500],
                                 self.separator)
-                       
+                            
                         if indicator["type"] in ('domain', 'hostname'):                      
                           
                              for domain in DOMAIN_WHITELIST:
@@ -132,7 +132,7 @@ class OTXReceiver():
                                 event["name"].encode('unicode-escape'),
                                 " / ".join(event["references"])[:500],
                                 self.separator)
-                  
+                        
                         if indicator["type"] in ('IPv4', 'IPv6'):                      
                           
                              for domain in DOMAIN_WHITELIST:
