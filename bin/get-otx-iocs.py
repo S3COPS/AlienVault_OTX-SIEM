@@ -40,7 +40,7 @@ HASH_WHITELIST = ['e617348b8947f28e2a280dd93c75a6ad','125da188e26bd119ce8cad7eeb
 DOMAIN_WHITELIST = ['proofpoint.com']
 
 # ENTER ANY WHITELIST URLS HERE:
-URL_WHITELIST = ['https://www.dxc.com']
+URL_WHITELIST = ['https://www.my-whitelisted-url.com']
 
 #############################################################################################
 
