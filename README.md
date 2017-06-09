@@ -26,6 +26,7 @@ For a list of good quality users to subscribe to, review the otx.pulses file
 The scripts are contained within the /bin/ directory
 run get-otx-iocs.py to gather the IOCS
 
+* usage: iocs.py [-h] [-k APIKEY] [-o dir] [-p proxy] [--verifycert] [--siem] [--debug]
 
 Enter your AlienVault API Key in file /bin/get-otx-iocs.py:
 
